@@ -437,6 +437,7 @@ section {
     height: 498.46px;
     width: 471.67px;
     padding: 0px 0px;
+    border-radius: 10px;
 }
 
 .name {
