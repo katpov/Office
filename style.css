@@ -469,6 +469,12 @@ section {
     transform: scale(0.9);
 }
 
+.rev_slider {
+    width: 1479px;
+    display: flex;
+    column-gap: 32px;
+}
+
 .twelfth {
     height: 705px;
     padding: 140px 220px 32px;
