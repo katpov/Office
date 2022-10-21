@@ -320,6 +320,10 @@ section {
     margin-bottom: 63.5px;
 }
 
+.card1:hover h3{
+    color: #FFE492;
+}
+
 .card1:hover li::before {
     content: '\e800';
     font-family: "fontello";
