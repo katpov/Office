@@ -40,8 +40,6 @@ a {
     gap: 10px;
     background: #4F9CF9;
     border-radius: 8px;
-    min-width: 171px;
-    max-width: 227px;
     height: 63px;
     padding: 20px;
     font-family: 'Inter';
@@ -51,20 +49,20 @@ a {
     line-height: 23px;
     letter-spacing: -0.02em;
     cursor: pointer;
+    transition: all 0.5s ease;
+
 }
 
-.button_group a::after {
+.button_group::after {
     content: '\e86c';
     font-family: "fontello";
-    width: 10px;
-    height: 10px;
     padding-left: 10px;
+    color: white;
 }
 
 .button_group:hover {
     background-color: #FFE492;
     color: #043873;
-    transition: all 1s ease;
 }
 
 .letter {
@@ -258,26 +256,27 @@ section {
     padding: 0;
 }
 
-.card-body1 li {
-    position: relative;
+.card_li li {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: -0.02em;
+    margin-left: 37px;
 }
 
 .card_li {
     width: 384.33px;
     height: 300px;
-
+    position: relative;
 }
 
 .card_li li::before {
     content: '\e800';
     font-family: "fontello";
-    width: 18.01px;
-    height: 18.01px;
+    position: absolute;
     padding-right: 19px;
+    font-size: 18px;
+    left: 0px;
 }
 
 .card_button {
@@ -293,11 +292,13 @@ section {
     border: 1px solid #FFE492;
     border-radius: 8px;
     cursor: pointer;
-    background-color: white;    
+    background-color: white;
+    color: black;
 }
 
-.card_button a{
-    color: black;
+.card_button:hover {
+    background-color: #FFE492;
+    color: #043873;
 }
 
 .card1 {
@@ -316,11 +317,9 @@ section {
     background-color: #043873;
     color: white;
     border: none;
-    margin-top: 63.5px;
-    margin-bottom: 63.5px;
 }
 
-.card1:hover h3{
+.card1:hover h3 {
     color: #FFE492;
 }
 
@@ -335,7 +334,7 @@ section {
     color: white;
 }
 
-.card1:hover .card_button{
+.card1:hover .card_button {
     background-color: #4F9CF9;
     border: none;
 }
@@ -367,10 +366,6 @@ section {
     max-width: 1481px;
     height: 761px;
 }
-
-
-
-
 
 /* .card-link {
     display: flex;
@@ -526,7 +521,6 @@ section {
     background-color: white;
     color: black;
     box-shadow: 15px 10px 50px rgba(0, 0, 0, 0.1);
-    transform: scale(0.9);
 }
 
 .rev_slider {
@@ -607,6 +601,10 @@ footer {
     letter-spacing: -0.02em;
 }
 
+.footer-bloc a:hover {
+    color: #FFE492;
+}
+
 .footer-bloc2 {
     max-width: 234px;
     max-height: 182px;
@@ -626,6 +624,10 @@ footer {
     max-height: 19px;
 }
 
+footer .dropdown a:hover {
+    color: #FFE492;
+}
+
 .footer-p {
     display: flex;
     flex-direction: row;
@@ -643,4 +645,25 @@ footer {
 .messengers-img {
     height: 16.68445587158203px;
     min-width: 9px;
+}
+
+.facebook::after {
+    content: '\f300';
+    font-family: "fontello";
+    font-size: 17px;
+    color: white;
+}
+
+.twitter::after {
+    content: '\e802';
+    font-family: "fontello";
+    font-size: 17px;
+    color: white;
+}
+
+.linkedin::after {
+    content: '\e801';
+    font-family: "fontello";
+    font-size: 17px;
+    color: white;
 }
