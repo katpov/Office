@@ -246,12 +246,19 @@ section {
 
 }
 
-.card-body ul {
+.card-body1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    padding: 0px 0px;
+}
+
+.card-body1 ul {
     list-style: none;
     padding: 0;
 }
 
-.card-body li {
+.card-body1 li {
     position: relative;
     font-weight: 400;
     font-size: 16px;
@@ -259,12 +266,38 @@ section {
     letter-spacing: -0.02em;
 }
 
-.card-body li::before {
-    content: url(image/Icon-list.png);
+.card_li {
+    width: 384.33px;
+    height: 300px;
+
+}
+
+.card_li li::before {
+    content: '\e800';
+    font-family: "fontello";
     width: 18.01px;
     height: 18.01px;
-    top: 0;
-    left: 0;
+    padding-right: 19px;
+}
+
+.card_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 166px;
+    height: 51px;
+    padding: 16px 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    border: 1px solid #FFE492;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: white;    
+}
+
+.card_button a{
+    color: black;
 }
 
 .card1 {
@@ -276,23 +309,31 @@ section {
     align-items: flex-start;
     padding: 40px 44px;
     border-color: #FFE492;
+    row-gap: 25px;
 }
 
 .card1:hover {
     background-color: #043873;
     color: white;
     border: none;
-    margin-top: 63.5px;   
+    margin-top: 63.5px;
     margin-bottom: 63.5px;
 }
 
 .card1:hover li::before {
-    content: url(image/IconYellow.png)
+    content: '\e800';
+    font-family: "fontello";
+    color: #FFE492;
+    ;
 }
 
 .card1:hover a {
-    background: #4F9CF9;
-    border-radius: 8px;
+    color: white;
+}
+
+.card1:hover .card_button{
+    background-color: #4F9CF9;
+    border: none;
 }
 
 .card1-title {
@@ -314,6 +355,18 @@ section {
     line-height: 23px;
     letter-spacing: -0.02em;
 }
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    column-gap: 32px;
+    max-width: 1481px;
+    height: 761px;
+}
+
+
+
+
 
 /* .card-link {
     display: flex;
