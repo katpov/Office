@@ -28,13 +28,16 @@ a {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .forH1 {
     font-size: 72px;
     font-weight: 700;
     line-height: 87px;
-
+    padding: 0px;
+    margin: 0px;
 }
 
 .login_btn {
@@ -195,7 +198,6 @@ section {
 
 .third {
     padding: 0px 220px 140px;
-    height: 901px;
     color: black;
     background-color: white;
 }
