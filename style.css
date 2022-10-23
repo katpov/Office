@@ -556,10 +556,6 @@ section {
     letter-spacing: -0.02em;
 }
 
-.footer-hr {
-    height: 38.48px;
-}
-
 footer {
     display: flex;
     flex-direction: row;
