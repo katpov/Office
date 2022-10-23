@@ -3,12 +3,107 @@
         padding: 16px 32px;
     }
 
-    .first {
+    .first,
+    .fourth,
+    .fifth,
+    .sixth,
+    .seventh,
+    .eighth,
+    .ninth,
+    .tenth,
+    .eleventh {
         padding: 100px 32px;
     }
 
     .officeImg {
-        width: 685px;
-        height: 456px;
+        max-width: 685px;
+        max-height: 456px;
+    }
+
+    .second {
+        padding: 140px 32px 100px;
+    }
+
+    .projectImg {
+        max-width: 719px;
+        max-height: 448px;
+    }
+
+    .info {
+        max-width: 617px;
+        max-height: 411px;
+    }
+
+    .gap_for_second {
+        column-gap: 0px;
+    }
+
+    .third {
+        padding: 0px 32px 100px;
+    }
+
+    .workImg {
+        max-width: 583px;
+        max-height: 542px;
+    }
+
+    .gap_for_xl3 {
+        column-gap: 160px;
+    }
+
+    .work {
+        max-width: 593px;
+        max-height: 324px;
+    }
+
+    .gap_for_xl4 {
+        column-gap: 98px;
+    }
+
+    .extension {
+        max-width: 552px;
+        max-height: 381px;
+    }
+
+    .customiseImg {
+        max-width: 670px;
+        max-height: 499px;
+    }
+
+    .customise {
+        max-width: 606px;
+        max-height: 407px;
+        padding: 0px;
+    }
+
+    .your_data {
+        max-width: 655px;
+        max-height: 324px;
+
+    }
+
+    .your_data_info {
+        max-width: 655px;
+        max-height: 201px;
+    }
+
+    .apps {
+        max-width: 654px;
+        max-height: 345px;
+    }
+
+    .apps_group {
+        max-width: 654px;
+        max-height: 468px;
+    }
+
+    .slick-slide {
+        max-width: 424px;
+        margin: 0px;
+    }
+
+    .twelfth,
+    footer {
+        padding: 140px 32px 32px;
     }
 }

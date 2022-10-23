@@ -14,8 +14,8 @@ header {
 }
 
 header img {
-    width: 191px;
-    height: 34px;
+    max-width: 191px;
+    max-height: 34px;
 }
 
 a {
@@ -118,7 +118,6 @@ section {
     display: flex;
     flex-direction: row;
     align-items: center;
-    isolation: isolate;
     max-width: 1920px;
 }
 
@@ -173,15 +172,16 @@ section {
 }
 
 .info {
-    width: 672px;
+    max-width: 672px;
     padding: 0px;
     row-gap: 60px;
 }
 
 .officeImg {
     width: 824px;
-    height: 549px;
+    max-height: 549px;
     background: #C4DEFD;
+    position: relative;
 }
 
 .second {
@@ -192,8 +192,12 @@ section {
 
 .projectImg {
     width: 748px;
-    height: 547px;
+    max-height: 547px;
     background: #C4DEFD;
+}
+
+.gap_for_second {
+    column-gap: 60px;
 }
 
 .third {
@@ -209,7 +213,7 @@ section {
 
 .work {
     max-width: 670px;
-    height: 294px;
+    max-height: 294px;
     padding: 0px;
     row-gap: 60px;
 }
@@ -222,13 +226,13 @@ section {
 
 .extension {
     max-width: 697px;
-    height: 294px;
+    max-height: 294px;
     row-gap: 60px;
 }
 
 .extensionImg {
     width: 686px;
-    height: 479px;
+    max-height: 479px;
 }
 
 .fifth {
@@ -239,13 +243,13 @@ section {
 
 .customise {
     max-width: 669px;
-    height: 411px;
+    max-height: 411px;
     row-gap: 60px;
 }
 
 .customiseImg {
     width: 714px;
-    height: 532.09px;
+    max-height: 532.09px;
 }
 
 .sixth {
@@ -255,7 +259,7 @@ section {
 }
 
 .titleCard {
-    width: 1481px;
+    max-width: 1481px;
     min-height: 171px;
     padding: 0px 0px 123.5px;
 
@@ -282,8 +286,8 @@ section {
 }
 
 .card_li {
-    width: 384.33px;
-    height: 300px;
+    max-width: 384.33px;
+    max-height: 300px;
     position: relative;
 }
 
@@ -300,8 +304,8 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 166px;
-    height: 51px;
+    max-width: 166px;
+    max-height: 51px;
     padding: 16px 40px;
     font-weight: 500;
     font-size: 16px;
@@ -319,8 +323,8 @@ section {
 }
 
 .card1 {
-    width: 472.33px;
-    height: 634px;
+    max-width: 472.33px;
+    max-height: 634px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -381,7 +385,7 @@ section {
     flex-direction: column;
     column-gap: 32px;
     max-width: 1481px;
-    height: 761px;
+    max-height: 761px;
 }
 
 .seventh {
@@ -392,13 +396,13 @@ section {
 
 .text_block {
     max-width: 1064px;
-    height: 171px;
+    max-height: 171px;
     row-gap: 24px;
 }
 
 .text_block_group {
     max-width: 1481px;
-    height: 294px;
+    max-height: 294px;
     row-gap: 60px;
 }
 
@@ -410,20 +414,20 @@ section {
 
 .your_data {
     max-width: 800px;
-    height: 324px;
+    max-height: 324px;
     row-gap: 60px;
 }
 
 .your_data_info {
 
-    width: 800px;
-    height: 201px;
+    max-width: 800px;
+    max-height: 201px;
     row-gap: 24px;
 }
 
 .elementImage {
-    width: 681px;
-    height: 381.13px;
+    max-width: 681px;
+    height: 381px;
 }
 
 .ninth {
@@ -458,8 +462,8 @@ section {
 }
 
 .appsImg {
-    width: 582px;
-    height: 470.8px;
+    max-width: 582px;
+    max-height: 470.8px;
 }
 
 .eleventh {
@@ -481,7 +485,7 @@ section {
     color: white;
     background-color: #4F9CF9;
     height: 498.46px;
-    width: 471.67px;
+    max-width: 471.67px;
     padding: 0px 0px;
     border-radius: 10px;
 }
@@ -501,8 +505,8 @@ section {
 .slick-slide {
     padding: 60px 40px;
     column-gap: 32px;
-    width: 471.67px;
-    height: 498.46px;
+    max-width: 471.67px;
+    max-height: 498.46px;
 }
 
 .slick-dots li button::before {
@@ -518,7 +522,7 @@ section {
 }
 
 .rev_slider {
-    width: 1479px;
+    max-width: 1479px;
     display: flex;
     column-gap: 32px;
 }
@@ -530,8 +534,8 @@ section {
 }
 
 .imageLogo {
-    width: 60px;
-    height: 60px;
+    max-width: 60px;
+    max-height: 60px;
 }
 
 .before-futer {
@@ -543,8 +547,8 @@ section {
 }
 
 .title_team {
-    width: 608px;
-    height: 262px;
+    max-width: 608px;
+    max-height: 262px;
     row-gap: 24px;
     text-align: center;
 }
@@ -569,8 +573,8 @@ footer {
 }
 
 .footer-image {
-    width: 191px;
-    height: 34px;
+    max-width: 191px;
+    max-height: 34px;
 
 }
 
@@ -618,14 +622,14 @@ footer .dropdown a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 573px;
-    height: 20px;
+    max-width: 573px;
+    max-height: 20px;
     row-gap: 60px;
 }
 
 .messengers {
-    width: 105px;
-    height: 16.68px;
+    max-width: 105px;
+    max-height: 16.68px;
 }
 
 .messengers-img {
