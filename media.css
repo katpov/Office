@@ -2,4 +2,13 @@
     header {
         padding: 16px 32px;
     }
+
+    .first {
+        padding: 100px 32px;
+    }
+
+    .officeImg {
+        width: 685px;
+        height: 456px;
+    }
 }
