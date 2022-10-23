@@ -7,12 +7,6 @@
   "ascent": 850,
   "glyphs": [
     {
-      "uid": "ad33e708f4d2e25c5056c931da1528d6",
-      "css": "ok-circled2",
-      "code": 59392,
-      "src": "fontawesome"
-    },
-    {
       "uid": "25a30265650b260ef03df4cbbff80272",
       "css": "linkedin",
       "code": 59393,
@@ -25,10 +19,34 @@
       "src": "typicons"
     },
     {
-      "uid": "w42gjpwdzqeszptpy1xqp8r77o6gcasj",
+      "uid": "559647a6f430b3aeadbecd67194451dd",
+      "css": "menu",
+      "code": 61641,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "ad33e708f4d2e25c5056c931da1528d6",
+      "css": "ok-circled2",
+      "code": 59392,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "ab95e1351ebaec5850101097cbf7097f",
+      "css": "quote-left",
+      "code": 61709,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "fb94e23ae1e7660aa63cc5f351ec7560",
+      "css": "right",
+      "code": 61816,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "240979dd9fcf2e46250e66792edb8092",
       "css": "facebook",
       "code": 62208,
-      "src": "modernpics"
+      "src": "brandico"
     }
   ]
 }

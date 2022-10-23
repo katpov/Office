@@ -19,12 +19,12 @@ Font license info
    Homepage:  http://typicons.com/
 
 
-## Modern Pictograms
+## Brandico
 
-   Copyright (c) 2012 by John Caserta. All rights reserved.
+   (C) 2012 by Vitaly Puzrin
 
-   Author:    John Caserta
+   Author:    Crowdsourced, for Fontello project
    License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://thedesignoffice.org/project/modern-pictograms/
+   Homepage:  
 
 

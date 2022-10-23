@@ -94,7 +94,7 @@
 
     .apps_group {
         max-width: 654px;
-        max-height: 468px;
+        height: 468px;
     }
 
     .slick-slide {
@@ -105,5 +105,130 @@
     .twelfth,
     footer {
         padding: 140px 32px 32px;
+    }
+}
+
+@media (max-width: 1152px) {
+    .navbar-nav {
+        display: none;
+    }
+
+    .first,
+    .second,
+    .third,
+    .fourth,
+    .fifth,
+    .sixth,
+    .seventh,
+    .eighth,
+    .ninth,
+    .tenth,
+    .eleventh {
+        padding: 140px 32px;
+    }
+
+    .nav-btn {
+        display: block;
+        background-color: #043873;
+        color: white;
+    }
+
+    .forH1 {
+        font-size: 64px;
+        line-height: 77px;
+    }
+
+    .officeImg {
+        max-width: 526px;
+        max-height: 350px;
+    }
+
+    .projectImg {
+        max-width: 527px;
+        max-height: 328px;
+    }
+
+    .info {
+        max-width: 528px;
+        max-height: 421px;
+    }
+
+    .workImg {
+        max-width: 528px;
+        max-height: 491px;
+    }
+
+    .work {
+        max-width: 527px;
+        max-height: 314px;
+    }
+
+    .gap_for_xl3 {
+        column-gap: normal;
+    }
+
+    .gap_for_xl4 {
+        column-gap: normal;
+    }
+
+    .extension {
+        max-width: 528px;
+        max-height: 284px;
+    }
+
+    .extensionImg {
+        max-width: 459px;
+        max-height: 320px;
+    }
+
+    .customiseImg {
+        max-width: 534px;
+        max-height: 397px;
+    }
+
+    .customise {
+        max-width: 494px;
+        max-height: 391px;
+        padding: 0px;
+    }
+
+    .your_data {
+        max-width: 526px;
+        max-height: 344px;
+        padding: 0px;
+    }
+
+    .your_data_info {
+        max-width: 526px;
+        max-height: 221px;
+    }
+
+    .elementImage {
+        max-width: 562px;
+        max-height: 314px;
+        align-self: center;
+    }
+
+    .apps {
+        max-width: 460px;
+        max-height: 422px;
+    }
+
+    .apps_group {
+        max-width: 460px;
+        height: 545px;
+        row-gap: 130px;
+    }
+
+    .appsImg {
+        max-width: 528px;
+        max-height: 427px;
+        align-self: center;
+    }
+
+    .slick-slide {
+        max-width: 341px;
+        margin: 0px;
+        padding: 60px 24px;
     }
 }

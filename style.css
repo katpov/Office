@@ -110,6 +110,16 @@ a {
     color: white;
 }
 
+.nav-btn {
+    display: none;
+}
+
+.nav-btn::before {
+    content: '\f0c9';
+
+
+}
+
 .padding {
     padding-right: 32px;
 }
@@ -473,7 +483,7 @@ section {
 }
 
 .slide_icon div::before {
-    content: '\e872';
+    content: '\f10d';
     font-family: "fontello";
     min-width: 86px;
     min-height: 61.46px;
@@ -628,7 +638,7 @@ footer .dropdown a:hover {
 }
 
 .messengers {
-    max-width: 105px;
+    width: 105px;
     max-height: 16.68px;
 }
 
