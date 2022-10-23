@@ -93,7 +93,7 @@ a {
 
 .letter {
     font-family: 'Inter';
-    font-style: Medium;
+    font-style: normal;
     letter-spacing: -0.02em;
 }
 
@@ -184,7 +184,6 @@ section {
 
 .second {
     padding: 140px 220px 100px;
-    height: 827px;
     color: black;
     background-color: white;
 }
