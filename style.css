@@ -99,11 +99,9 @@ section {
 
 .first {
     padding: 140px 220px;
-    height: 829px;
-    left: 0px;
-    top: 92px;
     background-color: #043873;
     color: white;
+
 }
 
 .vector {
@@ -147,11 +145,6 @@ section {
 .vector9 {
     background-size: contain;
     background-position: center;
-}
-
-.whitepace {
-    width: 656px;
-    height: 361px;
 }
 
 .info {
