@@ -17,7 +17,6 @@
 
     .officeImg {
         max-width: 685px;
-        max-height: 456px;
     }
 
     .second {
@@ -26,12 +25,10 @@
 
     .projectImg {
         max-width: 719px;
-        max-height: 448px;
     }
 
     .info {
         max-width: 617px;
-        max-height: 411px;
     }
 
     .gap_for_second {
@@ -43,8 +40,8 @@
     }
 
     .workImg {
-        max-width: 583px;
-        max-height: 542px;
+        width: 583px;
+        height: 542px;
     }
 
     .gap_for_xl3 {
@@ -53,7 +50,6 @@
 
     .work {
         max-width: 593px;
-        max-height: 324px;
     }
 
     .gap_for_xl4 {
@@ -62,39 +58,31 @@
 
     .extension {
         max-width: 552px;
-        max-height: 381px;
     }
 
     .customiseImg {
         max-width: 670px;
-        max-height: 499px;
     }
 
     .customise {
         max-width: 606px;
-        max-height: 407px;
         padding: 0px;
     }
 
     .your_data {
         max-width: 655px;
-        max-height: 324px;
-
     }
 
     .your_data_info {
         max-width: 655px;
-        max-height: 201px;
     }
 
     .apps {
         max-width: 654px;
-        max-height: 345px;
     }
 
     .apps_group {
         max-width: 654px;
-        height: 468px;
     }
 
     .slick-slide {
@@ -141,17 +129,18 @@
 
     .officeImg {
         max-width: 526px;
-        max-height: 350px;
     }
 
     .projectImg {
         max-width: 527px;
-        max-height: 328px;
+    }
+
+    .space {
+        justify-content: space-between;
     }
 
     .info {
         max-width: 528px;
-        max-height: 421px;
     }
 
     .workImg {
@@ -161,7 +150,6 @@
 
     .work {
         max-width: 527px;
-        max-height: 314px;
     }
 
     .gap_for_xl3 {
@@ -174,56 +162,46 @@
 
     .extension {
         max-width: 528px;
-        max-height: 284px;
     }
 
     .extensionImg {
         max-width: 459px;
-        max-height: 320px;
     }
 
     .customiseImg {
         max-width: 534px;
-        max-height: 397px;
     }
 
     .customise {
         max-width: 494px;
-        max-height: 391px;
         padding: 0px;
     }
 
     .your_data {
         max-width: 526px;
-        max-height: 344px;
         padding: 0px;
     }
 
     .your_data_info {
         max-width: 526px;
-        max-height: 221px;
     }
 
     .elementImage {
         max-width: 562px;
-        max-height: 314px;
         align-self: center;
     }
 
     .apps {
         max-width: 460px;
-        max-height: 422px;
     }
 
     .apps_group {
         max-width: 460px;
-        height: 545px;
         row-gap: 130px;
     }
 
     .appsImg {
         max-width: 528px;
-        max-height: 427px;
         align-self: center;
     }
 
@@ -301,8 +279,7 @@
     }
 
     .work {
-        width: 728px;
-        height: 268px;
+        max-width: 728px;
     }
 
     .gap_for_xl3 {
@@ -416,7 +393,6 @@
     .officeImg {
         width: 100%;
         max-width: 286px;
-        max-height: 191px;
     }
 
     .info {
@@ -427,7 +403,6 @@
 
     .projectImg {
         max-width: 286px;
-        max-height: 177px;
     }
 
     .workImage {
@@ -437,7 +412,6 @@
 
     .work {
         max-width: 288px;
-        max-height: 348px;
     }
 
     .extensionImg {
@@ -451,12 +425,10 @@
 
     .customiseImg {
         max-width: 288px;
-        max-height: 214px;
     }
 
     .customise {
         max-width: 288px;
-        max-height: 386px;
     }
 
     .gap_for_fifth {
@@ -475,13 +447,12 @@
 
     .text_block {
         max-width: 288px;
-        max-height: 396px;
+       
     }
 
     .elementImage {
         width: 100%;
         max-width: 290px;
-        max-height: 162px;
     }
 
     .sponsorsImg {
@@ -490,7 +461,6 @@
 
     .appsImg {
         max-width: 286px;
-        max-height: 232px;
     }
 
     .gap_for_footer {

@@ -192,15 +192,16 @@ section {
 }
 
 .info {
-    width: 672px;
-    height: 411px;
+    max-width: 672px;
+    height: auto;
     padding: 0px;
     row-gap: 60px;
 }
 
 .officeImg {
-    width: 824px;
-    max-height: 549px;
+    width: 100%;
+    max-width: 824px;
+    max-height: auto;
     background: #C4DEFD;
 }
 
@@ -211,8 +212,9 @@ section {
 }
 
 .projectImg {
-    width: 748px;
-    max-height: 547px;
+    width: 100%;
+    max-width: 748px;
+    height: auto;
     background: #C4DEFD;
 }
 
@@ -232,8 +234,9 @@ section {
 }
 
 .work {
-    width: 670px;
-    max-height: 294px;
+    width: 100%;
+    max-width: 670px;
+    height: auto;
     padding: 0px;
     row-gap: 60px;
 }
@@ -245,14 +248,16 @@ section {
 }
 
 .extension {
+    width: 100%;
     max-width: 697px;
-    max-height: 294px;
+    height: auto;
     row-gap: 60px;
 }
 
 .extensionImg {
-    width: 686px;
-    max-height: 479px;
+    width: 100%;
+    max-width: 686px;
+    height: 479px;
 }
 
 .fifth {
@@ -262,14 +267,16 @@ section {
 }
 
 .customise {
+    width: 100%;
     max-width: 669px;
-    max-height: 411px;
+    height: auto;
     row-gap: 60px;
 }
 
 .customiseImg {
-    width: 714px;
-    max-height: 532.09px;
+    width: 100%;
+    max-width: 714px;
+    height: auto;
 }
 
 .sixth {
@@ -279,8 +286,9 @@ section {
 }
 
 .titleCard {
+    width: 100%;
     max-width: 1481px;
-    min-height: 171px;
+    height: auto;
     padding: 0px 0px 123.5px;
 
 }
@@ -306,8 +314,9 @@ section {
 }
 
 .card_li {
-    max-width: 384.33px;
-    max-height: 300px;
+    width: 100%;
+    max-width: 384px;
+    height: auto;
     position: relative;
 }
 
@@ -415,14 +424,16 @@ section {
 }
 
 .text_block {
+    width: 100%;
     max-width: 1064px;
-    max-height: 171px;
+    height: auto;
     row-gap: 24px;
 }
 
 .text_block_group {
+    width: 100%;
     max-width: 1481px;
-    max-height: 294px;
+    height: auto;
     row-gap: 60px;
 }
 
@@ -433,21 +444,23 @@ section {
 }
 
 .your_data {
+    width: 100%;
     max-width: 800px;
-    max-height: 324px;
+    height: auto;
     row-gap: 60px;
 }
 
 .your_data_info {
-
+    width: 100%;
     max-width: 800px;
-    max-height: 201px;
+    height: auto;
     row-gap: 24px;
 }
 
 .elementImage {
+    width: 100%;
     max-width: 681px;
-    height: 381px;
+    height: auto;
 }
 
 .ninth {
@@ -459,6 +472,7 @@ section {
 .sponsorsImg {
     display: flex;
     flex-wrap: wrap;
+    height: auto;
     max-height: 71px;
     justify-content: space-between;
 }
@@ -474,20 +488,23 @@ section {
 }
 
 .apps {
+    width: 100%;
     max-width: 798px;
-    height: 345px;
+    height: auto;
     row-gap: 24px;
 }
 
 .apps_group {
+    width: 100%;
     max-width: 798px;
-    height: 468px;
+    height: auto;
     row-gap: 60px;
 }
 
 .appsImg {
+    width: 100%;
     max-width: 582px;
-    max-height: 470.8px;
+    height: auto;
 }
 
 .eleventh {
@@ -558,8 +575,9 @@ section {
 }
 
 .imageLogo {
+    width: 100%;
     max-width: 60px;
-    max-height: 60px;
+    height: auto;
 }
 
 .before-futer {
@@ -571,8 +589,9 @@ section {
 }
 
 .title_team {
+    width: 100%;
     max-width: 608px;
-    max-height: 262px;
+    height: auto;
     row-gap: 24px;
     text-align: center;
 }
@@ -598,14 +617,14 @@ footer {
 
 .footer-image {
     max-width: 191px;
-    max-height: 34px;
+    height: auto;
 
 }
 
 .footer-bloc {
     row-gap: 15px;
     max-width: 233px;
-    height: 182px;
+    height: auto;
 }
 
 .footer-bloc a {
@@ -620,8 +639,9 @@ footer {
 }
 
 .footer-bloc2 {
+    width: 100%;
     max-width: 234px;
-    max-height: 182px;
+    height: auto;
     row-gap: 23px;
     padding: 0px;
     margin: 0px;
@@ -635,7 +655,7 @@ footer {
 .footer-navlink::before {
     content: url(image/IconLanguage.png);
     max-width: 19px;
-    max-height: 19px;
+    height: auto;
 }
 
 footer .dropdown a:hover {
@@ -652,13 +672,9 @@ footer .dropdown a:hover {
 }
 
 .messengers {
-    width: 105px;
-    max-height: 16.68px;
-}
-
-.messengers-img {
-    height: 16.68445587158203px;
-    min-width: 9px;
+    width: 100%;
+    max-width: 105px;
+    height: auto;
 }
 
 .facebook::after {
