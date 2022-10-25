@@ -109,7 +109,7 @@
 }
 
 @media (max-width: 1152px) {
-    .navbar-nav {
+    .navbar-nav-header {
         display: none;
     }
 
@@ -127,13 +127,14 @@
         padding: 140px 32px;
     }
 
-    .nav-btn {
+    .mobMenuBtn {
         display: block;
         background-color: #043873;
         color: white;
     }
 
-    .forH1 {
+    .forH1,
+    .letter h2 {
         font-size: 64px;
         line-height: 77px;
     }
@@ -230,5 +231,281 @@
         max-width: 341px;
         margin: 0px;
         padding: 60px 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hide_mbl {
+        display: none;
+    }
+
+    .sixth {
+        display: none;
+    }
+
+    .navbar-footer {
+        display: block;
+    }
+
+    .first {
+        justify-content: center;
+        align-items: center;
+        padding: 140px 20px 100px;
+        column-gap: 100px;
+    }
+
+    .textCenter {
+        text-align: center;
+        align-self: center;
+    }
+
+    .forH1,
+    .letter h2 {
+        font-size: 54px;
+        line-height: 65px;
+    }
+
+    .gap_for_first {
+        row-gap: 100px;
+    }
+
+    .centering {
+        justify-content: center;
+    }
+
+    .second {
+        padding: 100px 20px;
+    }
+
+    .info {
+        max-width: 728px;
+        max-height: 298px;
+    }
+
+    .for_mb {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .gap_for_second {
+        row-gap: 140px;
+    }
+
+    .third {
+        padding: 0px 20px 100px;
+    }
+
+    .workImage {
+        width: 454px;
+        height: 422px;
+    }
+
+    .work {
+        width: 728px;
+        height: 268px;
+    }
+
+    .gap_for_xl3 {
+        row-gap: 100px;
+    }
+
+    .substitute_for_mb {
+        flex-direction: column-reverse;
+    }
+
+    .fourth {
+        padding: 100px 32px;
+
+    }
+
+    .gap_for_fourth {
+        row-gap: 60px;
+    }
+
+    .fifth {
+        padding: 140px 20px;
+    }
+
+    .aI_center {
+        align-items: center;
+    }
+
+    .sixth,
+    .seventh,
+    .eighth,
+    .ninth,
+    .tenth {
+        padding: 140px 20px;
+    }
+
+    .textStart {
+        text-align: start;
+        align-self: start;
+    }
+
+    .text_block_group {
+        max-width: 100%;
+        max-height: max-content;
+        padding-right: 124px;
+        row-gap: 140px;
+    }
+
+    .your_data_info {
+        max-width: 100%;
+        max-height: max-content;
+    }
+
+    .gap_for_eighth {
+        row-gap: 60px;
+    }
+
+    .gap_for_ninth {
+        row-gap: 100px;
+    }
+
+    .apps_group {
+        max-width: 100%;
+        max-height: max-content;
+        row-gap: 60px;
+    }
+
+    .apps {
+        max-width: 100%;
+        height: min-content;
+    }
+
+    .gap_for_footer {
+        row-gap: 100px;
+    }
+
+    .footerBlock {
+        column-gap: 20px;
+    }
+
+    .footer-p {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .centering_s {
+        justify-content: start;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .sixth {
+        display: none;
+    }
+
+    .first,
+    .second,
+    .third,
+    .fourth,
+    .fifth,
+    .eighth,
+    .ninth {
+        padding: 80px 16px;
+    }
+
+    .forH1,
+    .letter h2 {
+        font-size: 36px;
+    }
+
+    .officeImg {
+        width: 100%;
+        max-width: 286px;
+        max-height: 191px;
+    }
+
+    .info {
+        width: 100%;
+        max-width: 288px;
+        max-height: 422px;
+    }
+
+    .projectImg {
+        max-width: 286px;
+        max-height: 177px;
+    }
+
+    .workImage {
+        max-width: 279px;
+        max-height: 260px;
+    }
+
+    .work {
+        max-width: 288px;
+        max-height: 348px;
+    }
+
+    .extensionImg {
+        max-width: 284px;
+        max-height: 198px;
+    }
+
+    .gap_for_fourth {
+        row-gap: 170px;
+    }
+
+    .customiseImg {
+        max-width: 288px;
+        max-height: 214px;
+    }
+
+    .customise {
+        max-width: 288px;
+        max-height: 386px;
+    }
+
+    .gap_for_fifth {
+        row-gap: 60px;
+    }
+
+    .seventh {
+        padding: 100px 16px 140px;
+    }
+
+    .text_block_group {
+        padding-right: 0px;
+        max-width: 288px;
+        max-height: max-content;
+    }
+
+    .text_block {
+        max-width: 288px;
+        max-height: 396px;
+    }
+
+    .elementImage {
+        width: 100%;
+        max-width: 290px;
+        max-height: 162px;
+    }
+
+    .sponsorsImg {
+        max-height: 60px;
+    }
+
+    .appsImg {
+        max-width: 286px;
+        max-height: 232px;
+    }
+
+    .gap_for_footer {
+        text-align: center;
+    }
+
+    .footer-bloc {
+        align-items: center;
+    }
+
+    .footer-bloc p {
+        align-items: center;
+    }
+
+    .footerBlock {
+        flex-direction: column;
     }
 }

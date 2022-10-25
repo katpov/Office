@@ -110,14 +110,24 @@ a {
     color: white;
 }
 
-.nav-btn {
+.mobMenuBtn {
     display: none;
 }
 
-.nav-btn::before {
-    content: '\f0c9';
+.icon-menu::before {
+    content: '\e873';
+}
 
+.centering_e {
+    justify-content: end;
+}
 
+.centering_sb {
+    justify-content: space-between;
+}
+
+.text_center {
+    text-align: center;
 }
 
 .padding {
@@ -182,7 +192,8 @@ section {
 }
 
 .info {
-    max-width: 672px;
+    width: 672px;
+    height: 411px;
     padding: 0px;
     row-gap: 60px;
 }
@@ -191,7 +202,6 @@ section {
     width: 824px;
     max-height: 549px;
     background: #C4DEFD;
-    position: relative;
 }
 
 .second {
@@ -222,7 +232,7 @@ section {
 }
 
 .work {
-    max-width: 670px;
+    width: 670px;
     max-height: 294px;
     padding: 0px;
     row-gap: 60px;
@@ -459,6 +469,10 @@ section {
     background-color: #043873;
 }
 
+.gap_for_tenth {
+    column-gap: 100px;
+}
+
 .apps {
     max-width: 798px;
     height: 345px;
@@ -666,4 +680,8 @@ footer .dropdown a:hover {
     font-family: "fontello";
     font-size: 17px;
     color: white;
+}
+
+.footerBlock {
+    column-gap: 60px;
 }

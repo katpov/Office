@@ -30,7 +30,7 @@
                 </div>
                 <div class="col-9 d-flex justify-content-end letter">
                     <nav class="navbar navbar-expand-lg">
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav navbar-nav-header">
                             <li class="nav-item dropdown padding">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
@@ -78,13 +78,21 @@
                         </ul>
                     </nav>
                     <div class="d-flex" style="column-gap: 24px;">
-                        <div>
-                            <a href="#" class="login_btn">Login</a>
+                        <div class="header_btn d-flex" style="column-gap: 24px;">
+                            <div>
+                                <a href="#" class="login_btn hide_mbl">Login</a>
+                            </div>
+                            <div>
+                                <a href="#" class="button_group hide_mbl" style="padding: 16px 24px;">Try Whitepace
+                                    free</a>
+                            </div>
                         </div>
-                        <div>
-                            <a href="#" class="button_group" style="padding: 16px 24px;">Try Whitepace free</a>
+                        <div class="mobMenuBtn">
+                            <a href="#">
+                                <span class="icon-menu">
+                                </span>
+                            </a>
                         </div>
-                        <button class="nav-btn"></button>
                     </div>
                 </div>
             </div>
@@ -92,8 +100,9 @@
     </header>
     <section class="first">
         <div class="container-fluid pe-0 ps-0">
-            <div class="row d-flex">
-                <div class="col-xxl-5 col-xl-6 col-lg-6 pe-0 ps-0 d-flex flex-column align-self-center">
+            <div class="row d-flex gap_for_first">
+                <div
+                    class="col-xxl-5 col-xl-6 col-lg-6 col-md-12 pe-0 ps-0 d-flex flex-column align-self-center textCenter">
                     <div class="d-flex flex-column align-items-start align-self-center" style="row-gap: 60px;">
                         <div class="d-flex flex-column letter" style="row-gap: 24px;">
                             <h2 class="mb-0">Get More Done with whitepace</h2>
@@ -101,48 +110,51 @@
                                 plan, analyze and manage everyday tasks
                             </p>
                         </div>
-                        <div>
+                        <div class="textCenter">
                             <a href="#" class="button_group" style="padding: 20px;">Try Whitepace free</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-xxl-7 col-xl-6 col-lg-6 d-flex justify-content-end ps-0">
-                    <img src="image/2.png" alt="Image2" class="officeImg">
+                <div class="col-xxl-7 col-xl-6 col-lg-6 col-md-12 d-flex ps-0 pe-0 centering_e centering">
+                    <img src="image/Image-container.png" alt="Image2" class="officeImg">
                 </div>
             </div>
         </div>
     </section>
     <section class="second">
-        <div class="container-fluid d-flex pe-0 ps-0">
-            <div class="row d-flex ps-3 gap_for_second">
-                <div class="col-6 info d-flex flex-column align-items-start align-self-center">
-                    <div class="d-flex flex-column" style="row-gap: 24px;">
-                        <h1 class="forH1 letter">
-                            Project<span class="vector"> Management</span>
-                        </h1>
-                        <p class="forP letter">
-                            Images, videos, PDFs and audio files are supported. Create math expressions and diagrams
-                            directly from the app. Take photos with the mobile app and save them to a note.
-                        </p>
+        <div class="container-fluid d-flex pe-0 ps-0 centering">
+            <div class="row ps-3">
+                <div class="d-flex centering_sb gap_for_second ps-0 pe-0 for_mb">
+                    <div
+                        class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 info d-flex flex-column align-items-start align-self-center">
+                        <div class="d-flex flex-column textCenter" style="row-gap: 24px;">
+                            <h1 class="forH1 letter">
+                                Project<span class="vector"> Management</span>
+                            </h1>
+                            <p class="forP letter">
+                                Images, videos, PDFs and audio files are supported. Create math expressions and diagrams
+                                directly from the app. Take photos with the mobile app and save them to a note.
+                            </p>
+                        </div>
+                        <a href="#" class="textCenter button_group">Get Started</a>
                     </div>
-                    <div>
-                        <a href="#" class="button_group">Get Started</a>
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 d-flex pe-0 ps-0 for_mb textCenter">
+                        <img src="image/Image-container2.png" alt="Image1" class="projectImg">
                     </div>
-                </div>
-                <div class="col-6 d-flex pe-0">
-                    <img src="image/1.png" alt="Image1" class="projectImg">
                 </div>
             </div>
+        </div>
         </div>
     </section>
     <section class="third">
         <div class="container-fluid pe-0 ps-0">
-            <div class="row justify-content-between gap_for_xl3">
-                <div class="col-6 d-flex workImg">
+            <div class="row centering_sb gap_for_xl3 centering substitute_for_mb">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 d-flex workImg for_mb textCenter workImage">
                     <img src="image/WorkImage.png" alt="workImage">
                 </div>
-                <div class="col-6 d-flex flex-column align-items-start align-self-center work">
-                    <div class="d-flex flex-column" style="row-gap: 24px;">
+                <div
+                    class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 d-flex flex-column align-items-start align-self-center work for_mb">
+                    <div class="d-flex flex-column textCenter" style="row-gap: 24px;">
                         <h1 class="forH1 letter vector vector2">
                             Work together
                         </h1>
@@ -151,7 +163,7 @@
                             You can also publish a note to the internet and share the URL with others.
                         </p>
                     </div>
-                    <div>
+                    <div class="textCenter">
                         <a href="#" class="button_group">Try it now</a>
                     </div>
                 </div>
@@ -160,45 +172,50 @@
     </section>
     <section class="fourth">
         <div class="container-fluid ps-0 pe-0">
-            <div class="row d-flex justify-content-between me-0 ms-0">
-                <div class="col-6 pe-0 ps-0 d-flex flex-column align-items-start align-self-center extension">
-                    <div class="d-flex flex-column" style="row-gap: 24px;">
-                        <h1 class="forH1 letter">
-                            Use as <span class="vector vector3">Extension</span>
-                        </h1>
-                        <p class="forP letter">
-                            Use the web clipper extension, available on Chrome and Firefox, to save web pages or take
-                            screenshots as notes.
-                        </p>
+            <div class="row d-flex centering_sb me-0 ms-0">
+                <div class="d-flex for_mb centering_sb centering gap_for_fourth">
+                    <div
+                        class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 pe-0 ps-0 d-flex flex-column align-items-start align-self-center extension">
+                        <div class="d-flex flex-column textCenter" style="row-gap: 24px;">
+                            <h1 class="forH1 letter">
+                                Use as <span class="vector vector3">Extension</span>
+                            </h1>
+                            <p class="forP letter">
+                                Use the web clipper extension, available on Chrome and Firefox, to save web pages or
+                                take
+                                screenshots as notes.
+                            </p>
+                        </div>
+                        <div class="textCenter">
+                            <a href="#" class="button_group">Lets Go</a>
+                        </div>
                     </div>
-                    <div>
-                        <a href="#" class="button_group">Lets Go</a>
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 d-flex pe-0 ps-0 centering_e for_mb textCenter">
+                        <img src="image/Illustration4.png" alt="Image3" class="extensionImg">
                     </div>
-                </div>
-                <div class="col-6 d-flex pe-0 ps-0 justify-content-end extensionImg">
-                    <img src="image/3.png" alt="Image3" class="extensionImg">
                 </div>
             </div>
         </div>
     </section>
     <section class="fifth">
         <div class="container-fluid pe-0 ps-0">
-            <div class="row justify-content-between">
-                <div class="col-6 d-flex">
-                    <img src="image/4.png" alt="Image4" class="customiseImg">
+            <div class="row centering_sb for_mb gap_for_fifth">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 d-flex for_mb aI_center">
+                    <img src="image/Image container5.png" alt="Image4" class="customiseImg">
                 </div>
-                <div class="col-6 d-flex flex-column align-items-start align-self-center customise">
+                <div
+                    class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 d-flex flex-column align-items-start align-self-center customise for_mb">
                     <div class="d-flex flex-column" style="row-gap: 24px;">
-                        <h1 class="forH1 letter">
+                        <h1 class="forH1 letter textCenter">
                             Customise it to <span class="vector vector4">your needs</span>
                         </h1>
-                        <p class="forP letter">
+                        <p class="forP letter textCenter">
                             Customise the app with plugins, custom themes and multiple text editors (Rich Text or
                             Markdown).
                             Or create your own scripts and plugins using the Extension API.
                         </p>
                     </div>
-                    <div>
+                    <div class="textCenter">
                         <a href="#" class="button_group">Lets Go</a>
                     </div>
                 </div>
@@ -332,14 +349,14 @@
                         <h1 class="forH1 letter">
                             Your work, everywhere <span class="vector vector6">you are</span>
                         </h1>
-                        <p class="forP letter" style="text-align: center;">
+                        <p class="forP letter text_center textStart">
                             Access your notes from your computer, phone or tablet by synchronising with various
                             services, including whitepace, Dropbox and OneDrive. The app is available on Windows, macOS,
                             Linux,
                             Android and iOS. A terminal app is also available!
                         </p>
                     </div>
-                    <div>
+                    <div class="textStart">
                         <a href="#" class="button_group">Tre Taskey</a>
                     </div>
                 </div>
@@ -348,9 +365,10 @@
     </section>
     <section class="eighth">
         <div class="container-fluid pe-0 ps-0">
-            <div class="row">
-                <div class="col-7 d-flex flex-column align-items-start align-self-center your_data">
-                    <div class="d-flex flex-column your_data_info">
+            <div class="row d-flex for_mb substitute_for_mb gap_for_eighth">
+                <div
+                    class="col-xxl-7 col-xl-7 col-lg-7 col-md-12 d-flex flex-column align-items-start align-self-center your_data for_mb">
+                    <div class="d-flex flex-column your_data_info textCenter">
                         <h1 class="forH1 letter">
                             100% <span class="vector vector7">your data</span>
                         </h1>
@@ -360,11 +378,11 @@
                             yourself can access them.
                         </p>
                     </div>
-                    <div>
+                    <div class="textCenter">
                         <a href="#" class="button_group">Read more</a>
                     </div>
                 </div>
-                <div class="col-5 d-flex">
+                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-12 d-flex for_mb">
                     <img src="image/Element.png" alt="ImageElement" class="elementImage">
                 </div>
             </div>
@@ -379,11 +397,19 @@
                             Our<span class="vector vector8"> sponsors</span>
                         </h1>
                     </div>
-                    <div class="col-12 d-flex justify-content-between">
-                        <img src="image/Apple.png" alt="Apple" class="sponsorsImg">
-                        <img src="image/microsoft 1.png" alt="Microsoft" class="sponsorsImg">
-                        <img src="image/Slack_Technologies_Logo 1.png" alt="Slack" class="sponsorsImg">
-                        <img src="image/Group 246.png" alt="Group" class="sponsorsImg">
+                    <div class="col-12 d-flex centering_sb for_mb gap_for_ninth aI_center">
+                        <div class="col-md-3">
+                            <img src="image/Apple.png" alt="Apple" class="sponsorsImg">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="image/microsoft 1.png" alt="Microsoft" class="sponsorsImg">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="image/Slack_Technologies_Logo 1.png" alt="Slack" class="sponsorsImg">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="image/Group 246.png" alt="Group" class="sponsorsImg">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -391,22 +417,23 @@
     </section>
     <section class="tenth">
         <div class="container-fluid pe-0 ps-0">
-            <div class="row justify-content-between">
-                <div class="col-5 d-flex ps-0 pe-0">
+            <div class="row justify-content-between for_mb">
+                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-12 d-flex ps-0 pe-0 for_mb">
                     <img src="image/Apps.png" alt="ImageApps" class="appsImg">
                 </div>
-                <div class="col-7 d-flex ps-0 pe-0 flex-column align-items-start align-self-center apps_group">
-                    <div class="d-flex flex-column apps">
-                        <h1 class="forH1 letter">
+                <div
+                    class="col-xxl-7 col-xl-7 col-lg-7 col-md-12 d-flex ps-0 pe-0 flex-column align-items-start align-self-center apps_group for_mb">
+                    <div class="d-flex flex-column apps aI_center">
+                        <h1 class="forH1 letter textCenter">
                             Work with Your Favorite Apps Using whitepace
                         </h1>
-                        <p class="forP letter">
+                        <p class="forP letter textCenter">
                             Whitepace teams up with your favorite software. Integrate with over 1000+ apps with Zapier
                             to
                             have all the tools you need for your project success.
                         </p>
                     </div>
-                    <div>
+                    <div class="textCenter">
                         <a href="#" class="button_group">Read more</a>
                     </div>
                 </div>
@@ -531,7 +558,7 @@
     <footer>
         <div class="container-fluid pe-0 ps-0">
             <div class="row">
-                <div class="col-12 d-flex justify-content-between">
+                <div class="col-12 d-flex centering_sb for_mb gap_for_footer">
                     <div class="footer-bloc">
                         <img src="image/Logo.png" alt="Logo" class="footer-image mb-3">
                         <p class="forP letter">
@@ -575,32 +602,34 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-6 d-flex align-items-center justify-content-start" style="column-gap: 60px;">
-                    <nav class="navbar navbar-expand-lg">
-                        <div class="container-fluid pe-0 ps-0">
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link footer-navlink dropdown-toggle letter" href="#" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            English
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item letter" href="#">Ukrainian</a></li>
-                                            <li><a class="dropdown-item letter" href="#">Another</a></li>
-                                    </li>
-                                </ul>
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 d-flex align-items-center justify-content-start footerBlock">
+                    <div class="navbar-footer">
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="container-fluid pe-0 ps-0">
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link footer-navlink dropdown-toggle letter" href="#"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                English
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item letter" href="#">Ukrainian</a></li>
+                                                <li><a class="dropdown-item letter" href="#">Another</a></li>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
-                    </nav>
-                    <div class="footer-p">
+                        </nav>
+                    </div>
+                    <div class="footer-p footerBlock">
                         <p class="letter">Terms & privacy</p>
                         <p class="letter">Security</p>
                         <p class="letter">Status</p>
                         <p class="letter">©2021 Whitepace LLC.</p>
                     </div>
                 </div>
-                <div class="col-6 d-flex justify-content-end align-items-center">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 d-flex centering_e align-items-center centering_s">
                     <div class="d-flex justify-content-between messengers">
                         <div class="facebook">
                         </div>
