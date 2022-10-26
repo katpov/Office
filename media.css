@@ -106,7 +106,6 @@
 
     .first,
     .second,
-    .third,
     .fourth,
     .fifth,
     .sixth,
@@ -116,6 +115,10 @@
     .tenth,
     .eleventh {
         padding: 140px 32px;
+    }
+
+    .third {
+        padding: 100px 32px;
     }
 
     .mobMenuBtn {
