@@ -231,6 +231,7 @@ section {
 .workImg {
     width: 710px;
     height: 661px;
+    object-fit: contain;
 }
 
 .work {
@@ -455,6 +456,7 @@ section {
     max-width: 800px;
     height: auto;
     row-gap: 24px;
+    padding-top: 28px;
 }
 
 .elementImage {
