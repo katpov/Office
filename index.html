@@ -23,15 +23,15 @@
 
 <body>
     <header>
-        <div class="container-fluid pe-0 ps-0">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-3 d-flex justify-content-start mt-2">
-                    <img src="image/Logo.png" alt="Logo">
+                <div class="col-3 d-flex align-items-center">
+                    <a href="#"><img src="image/Logo.png" alt="Logo"></a>
                 </div>
-                <div class="col-9 d-flex justify-content-end letter">
+                <div class="col-9 d-flex justify-content-between">
                     <nav class="navbar navbar-expand-lg">
                         <ul class="navbar-nav navbar-nav-header">
-                            <li class="nav-item dropdown padding">
+                            <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Products
@@ -42,7 +42,7 @@
                                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown padding">
+                            <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Solutions
@@ -53,7 +53,7 @@
                                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown padding">
+                            <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Resources
@@ -64,7 +64,7 @@
                                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown padding">
+                            <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Pricing
@@ -77,8 +77,8 @@
                             </li>
                         </ul>
                     </nav>
-                    <div class="d-flex" style="column-gap: 24px;">
-                        <div class="header_btn d-flex" style="column-gap: 24px;">
+                    <div class="d-flex" style="column-gap: 20px;">
+                        <div class="d-flex" style="column-gap: 24px;">
                             <div>
                                 <a href="#" class="login_btn hide_mbl">Login</a>
                             </div>
@@ -99,46 +99,47 @@
         </div>
     </header>
     <section class="first">
-        <div class="container-fluid pe-0 ps-0">
-            <div class="row d-flex gap_for_first">
-                <div
-                    class="col-xxl-5 col-xl-6 col-lg-6 col-md-12 pe-0 ps-0 d-flex flex-column align-self-center textCenter">
-                    <div class="d-flex flex-column align-items-start align-self-center" style="row-gap: 60px;">
-                        <div class="d-flex flex-column letter" style="row-gap: 24px;">
-                            <h2 class="mb-0">Get More Done with whitepace</h2>
-                            <p class="forP letter">Project management software that enables your teams to collaborate,
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xxl-5 col-lg-6 col-md-12 align-self-center">
+                    <div class="text_block_btn">
+                        <div class="text_block">
+                            <h2>Get More Done with whitepace</h2>
+                            <p>Project management software that enables your teams to collaborate,
                                 plan, analyze and manage everyday tasks
                             </p>
                         </div>
-                        <div class="textCenter">
+                        <div>
                             <a href="#" class="button_group" style="padding: 20px;">Try Whitepace free</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-xxl-7 col-xl-6 col-lg-6 col-md-12 d-flex ps-0 pe-0 centering_e centering">
-                    <img src="image/Image-container.png" alt="Image2" class="officeImg">
+                <div class="col-xxl-7 col-lg-6 col-md-12">
+                    <div class="image_block_right">
+                        <img src="image/Image-container.png" alt="Image2" class="officeImg">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <section class="second">
-        <div class="container-fluid d-flex pe-0 ps-0 centering space">
-            <div class="row ps-3">
-                <div class="d-flex centering_sb gap_for_second ps-0 pe-0 for_mb">
-                    <div
-                        class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 info d-flex flex-column align-items-start align-self-center">
-                        <div class="d-flex flex-column textCenter" style="row-gap: 24px;">
-                            <h1 class="forH1 letter">
-                                Project<span class="vector"> Management</span>
-                            </h1>
-                            <p class="forP letter">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="d-flex for_mb">
+                    <div class="col-lg-6 col-md-12 text_block_btn">
+                        <div class="text_block">
+                            <div>
+                                <h1>Project</h1>
+                                <h1><span class="vector"> Management</span></h1>
+                            </div>
+                            <p>
                                 Images, videos, PDFs and audio files are supported. Create math expressions and diagrams
                                 directly from the app. Take photos with the mobile app and save them to a note.
                             </p>
                         </div>
-                        <a href="#" class="textCenter button_group">Get Started</a>
+                        <a href="#" class="button_group">Get Started</a>
                     </div>
-                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 d-flex pe-0 ps-0 for_mb textCenter">
+                    <div class="col-lg-6 col-md-12 image_block_right">
                         <img src="image/Image-container2.png" alt="Image1" class="projectImg">
                     </div>
                 </div>
@@ -147,23 +148,21 @@
         </div>
     </section>
     <section class="third">
-        <div class="container-fluid pe-0 ps-0">
-            <div class="row centering_sb gap_for_xl3 centering substitute_for_mb">
-                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 ps-0 pe-0 d-flex workImg for_mb textCenter workImage">
-                    <img src="image/WorkImage.png" alt="workImage">
+        <div class="container-fluid">
+            <div class="row for_mb">
+                <div class="col-lg-6 col-md-12 image_block">
+                    <img src="image/WorkImage.png" alt="workImage" class="workImg">
                 </div>
-                <div
-                    class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 d-flex flex-column align-items-start align-self-center work for_mb">
-                    <div class="d-flex flex-column textCenter" style="row-gap: 24px;">
-                        <h1 class="forH1 letter vector vector2">
+                <div class="col-lg-6 col-md-12 text_block_btn">
+                    <div class="text_block">
+                        <h1 class="vector vector2">
                             Work together
                         </h1>
-                        <p class="forP letter">
-                            With whitepace, share your notes with your colleagues and collaborate on them.
-                            You can also publish a note to the internet and share the URL with others.
-                        </p>
+                        <p>With whitepace, share your notes with your colleagues and collaborate on them.
+                            You can also publish a note to the internet and share the URL with others.</p>
+
                     </div>
-                    <div class="textCenter">
+                    <div>
                         <a href="#" class="button_group">Try it now</a>
                     </div>
                 </div>
@@ -171,26 +170,25 @@
         </div>
     </section>
     <section class="fourth">
-        <div class="container-fluid ps-0 pe-0">
-            <div class="row d-flex centering_sb me-0 ms-0">
-                <div class="d-flex for_mb centering_sb centering gap_for_fourth">
-                    <div
-                        class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 pe-0 ps-0 d-flex flex-column align-items-start align-self-center extension">
-                        <div class="d-flex flex-column textCenter" style="row-gap: 24px;">
-                            <h1 class="forH1 letter">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="d-flex for_mb">
+                    <div class="col-lg-6 col-md-12 text_block_btn">
+                        <div class="text_block">
+                            <h1>
                                 Use as <span class="vector vector3">Extension</span>
                             </h1>
-                            <p class="forP letter">
+                            <p>
                                 Use the web clipper extension, available on Chrome and Firefox, to save web pages or
                                 take
                                 screenshots as notes.
                             </p>
                         </div>
-                        <div class="textCenter">
+                        <div>
                             <a href="#" class="button_group">Lets Go</a>
                         </div>
                     </div>
-                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 d-flex pe-0 ps-0 centering_e for_mb textCenter">
+                    <div class="col-lg-6 col-md-12 image_block_right">
                         <img src="image/Illustration4.png" alt="Image3" class="extensionImg">
                     </div>
                 </div>
@@ -198,24 +196,23 @@
         </div>
     </section>
     <section class="fifth">
-        <div class="container-fluid pe-0 ps-0">
-            <div class="row centering_sb for_mb gap_for_fifth">
-                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 d-flex for_mb aI_center">
+        <div class="container-fluid">
+            <div class="row for_mb">
+                <div class="col-lg-6 col-md-12 image_block">
                     <img src="image/Image container5.png" alt="Image4" class="customiseImg">
                 </div>
-                <div
-                    class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 d-flex flex-column align-items-start align-self-center customise for_mb">
-                    <div class="d-flex flex-column" style="row-gap: 24px;">
-                        <h1 class="forH1 letter textCenter">
+                <div class="col-lg-6 col-md-12 text_block_btn">
+                    <div class="text_block">
+                        <h1>
                             Customise it to <span class="vector vector4">your needs</span>
                         </h1>
-                        <p class="forP letter textCenter">
+                        <p>
                             Customise the app with plugins, custom themes and multiple text editors (Rich Text or
                             Markdown).
                             Or create your own scripts and plugins using the Extension API.
                         </p>
                     </div>
-                    <div class="textCenter">
+                    <div>
                         <a href="#" class="button_group">Lets Go</a>
                     </div>
                 </div>
@@ -223,140 +220,133 @@
         </div>
     </section>
     <section class="sixth">
-        <div class="container-fluid pe-0 ps-0">
-            <div class="row">
-                <div class="col-12 d-flex flex-column justify-content-center align-items-center titleCard">
-                    <h1 class="forH1 letter">
-                        Choose <span class="vector vector5">Your Plan</span>
-                    </h1>
-                    <p class="forP letter" style="text-align: center;">
-                        Whether you want to get organized, keep your personal life on track, or boost workplace
-                        productivity, Evernote has the right plan for you.
-                    </p>
+        <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 titleCard">
+                        <h1>
+                            Choose <span class="vector vector5">Your Plan</span>
+                        </h1>
+                        <p>
+                            Whether you want to get organized, keep your personal life on track, or boost workplace
+                            productivity, Evernote has the right plan for you.
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="row cards">
-                <div class="col-4 pe-0 ps-0">
-                    <div class="card card1">
-                        <div class="card-body card-body1">
-                            <h5 class="card-title card1-title letter mb-0">Free</h5>
-                            <h3 class="card-subtitle card1-subtitle letter mb-0">$0</h3>
-                            <p class="card-text card1-text letter mb-0">Capture ideas and find them quickly</p>
-                            <div class="card_li">
-                                <ul class="letter d-flex flex-column" style="row-gap: 28px; column-gap: 19px;">
-                                    <li>
-                                        Sync unlimited devices
-                                    </li>
-                                    <li>
-                                        10 GB monthly uploads
-                                    </li>
-                                    <li>
-                                        200 MB max. note size
-                                    </li>
-                                    <li>
-                                        Customize Home dashboard and access extra widgets
-                                    </li>
-                                    <li>
-                                        Connect primary Google Calendar account
-                                    </li>
-                                    <li>
-                                        Add due dates, reminders, and notifications to your tasks
-                                    </li>
-                                </ul>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="cards_slider">
+                            <div class="slide">
+                                <h5 class="card1-title">Free</h5>
+                                <h3 class="card1-subtitle">$0</h3>
+                                <p class="card1-text">Capture ideas and find them quickly</p>
+                                <div class="card_li">
+                                    <ul>
+                                        <li>
+                                            Sync unlimited devices
+                                        </li>
+                                        <li>
+                                            10 GB monthly uploads
+                                        </li>
+                                        <li>
+                                            200 MB max. note size
+                                        </li>
+                                        <li>
+                                            Customize Home dashboard and access extra widgets
+                                        </li>
+                                        <li>
+                                            Connect primary Google Calendar account
+                                        </li>
+                                        <li>
+                                            Add due dates, reminders, and notifications to your tasks
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <a href="#" class="card_button">Get Started</a>
+                                </div>
                             </div>
-                            <div>
-                                <a href="#" class="card_button">Get Started</a>
+                            <div class="slide">
+                                <h5 class="card-title card1-title">Personal</h5>
+                                <h3 class="card-subtitle card1-subtitle">$11.99</h3>
+                                <p class="card-text card1-text">Keep home and family on track</p>
+                                <div class="card_li">
+                                    <ul>
+                                        <li>
+                                            Sync unlimited devices
+                                        </li>
+                                        <li>
+                                            10 GB monthly uploads
+                                        </li>
+                                        <li>
+                                            200 MB max. note size
+                                        </li>
+                                        <li>
+                                            Customize Home dashboard and access extra widgets
+                                        </li>
+                                        <li>
+                                            Connect primary Google Calendar account
+                                        </li>
+                                        <li>
+                                            Add due dates, reminders, and notifications to your tasks
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <a href="#" class="card_button">Get Started</a>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <h5 class="card1-title">Organization</h5>
+                                <h3 class="card1-subtitle">$49.99</h3>
+                                <p class="card1-text">Capture ideas and find them quickly</p>
+                                <div class="card_li">
+                                    <ul>
+                                        <li>
+                                            Sync unlimited devices
+                                        </li>
+                                        <li>
+                                            10 GB monthly uploads
+                                        </li>
+                                        <li>
+                                            200 MB max. note size
+                                        </li>
+                                        <li>
+                                            Customize Home dashboard and access extra widgets
+                                        </li>
+                                        <li>
+                                            Connect primary Google Calendar account
+                                        </li>
+                                        <li>
+                                            Add due dates, reminders, and notifications to your tasks
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <a href="#" class="card_button">Get Started</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-4 pe-0 ps-0">
-                    <div class="card card1">
-                        <div class="card-body card-body1">
-                            <h5 class="card-title card1-title letter mb-0">Personal</h5>
-                            <h3 class="card-subtitle card1-subtitle mb-0 letter">$11.99</h3>
-                            <p class="card-text card1-text letter mb-0">Keep home and family on track</p>
-                            <div class="card_li">
-                                <ul class="letter d-flex flex-column" style="row-gap: 28px; column-gap: 19px;">
-                                    <li>
-                                        Sync unlimited devices
-                                    </li>
-                                    <li>
-                                        10 GB monthly uploads
-                                    </li>
-                                    <li>
-                                        200 MB max. note size
-                                    </li>
-                                    <li>
-                                        Customize Home dashboard and access extra widgets
-                                    </li>
-                                    <li>
-                                        Connect primary Google Calendar account
-                                    </li>
-                                    <li>
-                                        Add due dates, reminders, and notifications to your tasks
-                                    </li>
-                                </ul>
-                            </div>
-                            <div>
-                                <a href="#" class="card_button">Get Started</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 pe-0 ps-0">
-                    <div class="card card1">
-                        <div class="card-body card-body1">
-                            <h5 class="card-title card1-title letter">Organization</h5>
-                            <h3 class="card-subtitle card1-subtitle mb-2 letter">$49.99</h3>
-                            <p class="card-text card1-text letter">Capture ideas and find them quickly</p>
-                            <div class="card_li">
-                                <ul class="letter d-flex flex-column" style="row-gap: 28px; column-gap: 19px;">
-                                    <li>
-                                        Sync unlimited devices
-                                    </li>
-                                    <li>
-                                        10 GB monthly uploads
-                                    </li>
-                                    <li>
-                                        200 MB max. note size
-                                    </li>
-                                    <li>
-                                        Customize Home dashboard and access extra widgets
-                                    </li>
-                                    <li>
-                                        Connect primary Google Calendar account
-                                    </li>
-                                    <li>
-                                        Add due dates, reminders, and notifications to your tasks
-                                    </li>
-                                </ul>
-                            </div>
-                            <div>
-                                <a href="#" class="card_button">Get Started</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        </div>
         </div>
     </section>
     <section class="seventh">
-        <div class="container-fluid pe-0 ps-0">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-12 d-flex flex-column justify-content-center align-items-center text_block_group">
-                    <div class="d-flex flex-column text_block">
-                        <h1 class="forH1 letter">
+                <div class="col-12 text_block7_group">
+                    <div class="text_block7">
+                        <h1>
                             Your work, everywhere <span class="vector vector6">you are</span>
                         </h1>
-                        <p class="forP letter text_center textStart">
+                        <p>
                             Access your notes from your computer, phone or tablet by synchronising with various
                             services, including whitepace, Dropbox and OneDrive. The app is available on Windows, macOS,
                             Linux,
                             Android and iOS. A terminal app is also available!
                         </p>
                     </div>
-                    <div class="textStart">
+                    <div>
                         <a href="#" class="button_group">Tre Taskey</a>
                     </div>
                 </div>
@@ -364,76 +354,74 @@
         </div>
     </section>
     <section class="eighth">
-        <div class="container-fluid pe-0 ps-0">
-            <div class="row d-flex for_mb substitute_for_mb gap_for_eighth space">
-                <div
-                    class="col-xxl-7 col-xl-7 col-lg-7 col-md-12 d-flex flex-column align-items-start align-self-center your_data for_mb">
-                    <div class="d-flex flex-column your_data_info textCenter">
-                        <h1 class="forH1 letter">
+        <div class="container-fluid">
+            <div class="row for_mb">
+                <div class="col-lg-7 col-md-12 text_block_btn">
+                    <div class="text_block">
+                        <h1>
                             100% <span class="vector vector7">your data</span>
                         </h1>
-                        <p class="forP letter">
+                        <p>
                             The app is open source and your notes are saved to an open format, so you'll always have
                             access to them. Uses End-To-End Encryption (E2EE) to secure your notes and ensure no-one but
                             yourself can access them.
                         </p>
                     </div>
-                    <div class="textCenter">
+                    <div>
                         <a href="#" class="button_group">Read more</a>
                     </div>
                 </div>
-                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-12 d-flex for_mb">
+                <div class="col-lg-5 col-md-12 image_block">
                     <img src="image/Element.png" alt="ImageElement" class="elementImage">
                 </div>
             </div>
         </div>
     </section>
     <section class="ninth">
-        <div class="container-fluid pe-0 ps-0">
+        <div class="container-fluid d-flex flex-column" style="row-gap: 100px;">
             <div class="row">
-                <div class="d-flex flex-column ps-0 pe-0" style="row-gap: 100px;">
-                    <div class="col-12 d-flex flex-column justify-content-center align-items-center">
-                        <h1 class="forH1 letter mb-0">
-                            Our<span class="vector vector8"> sponsors</span>
-                        </h1>
+                <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+                    <h1 class="mb-0">
+                        Our<span class="vector vector8"> sponsors</span>
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 d-flex for_mb">
+                    <div>
+                        <img src="image/Apple.png" alt="Apple" class="sponsorsImg">
                     </div>
-                    <div class="col-12 d-flex centering_sb for_mb gap_for_ninth aI_center">
-                        <div class="col-md-3">
-                            <img src="image/Apple.png" alt="Apple" class="sponsorsImg">
-                        </div>
-                        <div class="col-md-3">
-                            <img src="image/microsoft 1.png" alt="Microsoft" class="sponsorsImg">
-                        </div>
-                        <div class="col-md-3">
-                            <img src="image/Slack_Technologies_Logo 1.png" alt="Slack" class="sponsorsImg">
-                        </div>
-                        <div class="col-md-3">
-                            <img src="image/Group 246.png" alt="Group" class="sponsorsImg">
-                        </div>
+                    <div>
+                        <img src="image/microsoft 1.png" alt="Microsoft" class="sponsorsImg">
+                    </div>
+                    <div>
+                        <img src="image/Slack_Technologies_Logo 1.png" alt="Slack" class="sponsorsImg">
+                    </div>
+                    <div>
+                        <img src="image/Group 246.png" alt="Group" class="sponsorsImg">
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <section class="tenth">
-        <div class="container-fluid pe-0 ps-0">
-            <div class="row justify-content-between for_mb">
-                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-12 d-flex ps-0 pe-0 for_mb">
+        <div class="container-fluid">
+            <div class="row for_mb">
+                <div class="col-lg-5 col-md-12 image_block">
                     <img src="image/Apps.png" alt="ImageApps" class="appsImg">
                 </div>
-                <div
-                    class="col-xxl-7 col-xl-7 col-lg-7 col-md-12 d-flex ps-0 pe-0 flex-column align-items-start align-self-center apps_group for_mb">
-                    <div class="d-flex flex-column apps aI_center">
-                        <h1 class="forH1 letter textCenter">
+                <div class="col-lg-7 col-md-12 text_block_btn">
+                    <div class="text_block">
+                        <h1>
                             Work with Your Favorite Apps Using whitepace
                         </h1>
-                        <p class="forP letter textCenter">
+                        <p>
                             Whitepace teams up with your favorite software. Integrate with over 1000+ apps with Zapier
                             to
                             have all the tools you need for your project success.
                         </p>
                     </div>
-                    <div class="textCenter">
+                    <div>
                         <a href="#" class="button_group">Read more</a>
                     </div>
                 </div>
@@ -441,31 +429,30 @@
         </div>
     </section>
     <section class="eleventh">
-        <div class="container-fluid pe-0 ps-0">
+        <div class="container-fluid">
             <div class="row d-flex flex-column" style="row-gap: 60px;">
-                <div class="col-12 d-flex flex-column align-items-center title-Clients">
-                    <h1 class="forH1 letter">
+                <div class="col-12 title_Clients">
+                    <h1>
                         What Our Client<span class="vector vector9"> Says</span>
                     </h1>
                 </div>
                 <div class="col-12">
                     <div class="rev_slider mb-0">
                         <div class="slide me-3">
-                            <div class="d-flex flex-column" style="row-gap: 60px;">
-                                <div class="d-flex flex-column">
-                                    <div class="d-flex flex-column slide_icon"
-                                        style="row-gap: 32px; padding: 0px 0px 40px;">
+                            <div class="rev_slide_block">
+                                <div class="rev_slide_block1">
+                                    <div class="slide_icon">
                                         <div></div>
-                                        <p class="card-subtitle letter">Whitepate is designed as a collaboration tool
+                                        <p class="card-subtitle">Whitepate is designed as a collaboration tool
                                             for
                                             businesses
                                             that is a full project management solution.</p>
                                     </div>
                                     <hr>
                                 </div>
-                                <div class="d-flex" style="column-gap: 42px;">
+                                <div class="rev_slide_block2">
                                     <div><img src="image/Avater-3.png" class="avatar"></div>
-                                    <div class="letter">
+                                    <div>
                                         <p class="name">Oberon Shaw, MCH</p>
                                         <p>Head of Talent Acquisition, North America</p>
                                     </div>
@@ -473,21 +460,20 @@
                             </div>
                         </div>
                         <div class="slide me-3 ms-3">
-                            <div class="d-flex flex-column" style="row-gap: 60px;">
-                                <div class="d-flex flex-column">
-                                    <div class="d-flex flex-column slide_icon"
-                                        style="row-gap: 32px; padding: 0px 0px 40px;">
+                            <div class="rev_slide_block">
+                                <div class="rev_slide_block1">
+                                    <div class="slide_icon">
                                         <div></div>
-                                        <p class="card-subtitle letter">Whitepate is designed as a collaboration tool
+                                        <p class="card-subtitle">Whitepate is designed as a collaboration tool
                                             for
                                             businesses
                                             that is a full project management solution.</p>
                                     </div>
                                     <hr>
                                 </div>
-                                <div class="d-flex" style="column-gap: 42px;">
+                                <div class="rev_slide_block2">
                                     <div><img src="image/Avater-2.png" class="avatar"></div>
-                                    <div class="letter">
+                                    <div>
                                         <p class="name">Oberon Shaw, MCH</p>
                                         <p>Head of Talent Acquisition, North America</p>
                                     </div>
@@ -495,21 +481,83 @@
                             </div>
                         </div>
                         <div class="slide ms-3">
-                            <div class="d-flex flex-column" style="row-gap: 60px;">
-                                <div class="d-flex flex-column">
-                                    <div class="d-flex flex-column slide_icon"
-                                        style="row-gap: 32px; padding: 0px 0px 40px;">
+                            <div class="rev_slide_block">
+                                <div class="rev_slide_block1">
+                                    <div class="slide_icon">
                                         <div></div>
-                                        <p class="card-subtitle letter">Whitepate is designed as a collaboration tool
+                                        <p class="card-subtitle">Whitepate is designed as a collaboration tool
                                             for
                                             businesses
                                             that is a full project management solution.</p>
                                     </div>
                                     <hr>
                                 </div>
-                                <div class="d-flex" style="column-gap: 42px;">
+                                <div class="rev_slide_block2">
                                     <div><img src="image/Avater-1.png" class="avatar"></div>
-                                    <div class="letter">
+                                    <div>
+                                        <p class="name">Oberon Shaw, MCH</p>
+                                        <p>Head of Talent Acquisition, North America</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide ms-3 me-3">
+                            <div class="rev_slide_block">
+                                <div class="rev_slide_block1">
+                                    <div class="slide_icon">
+                                        <div></div>
+                                        <p class="card-subtitle">Whitepate is designed as a collaboration tool
+                                            for
+                                            businesses
+                                            that is a full project management solution.</p>
+                                    </div>
+                                    <hr>
+                                </div>
+                                <div class="rev_slide_block2">
+                                    <div><img src="image/Avater-3.png" class="avatar"></div>
+                                    <div>
+                                        <p class="name">Oberon Shaw, MCH</p>
+                                        <p>Head of Talent Acquisition, North America</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide me-3 ms-3">
+                            <div class="rev_slide_block">
+                                <div class="rev_slide_block1">
+                                    <div class="slide_icon">
+                                        <div></div>
+                                        <p class="card-subtitle">Whitepate is designed as a collaboration tool
+                                            for
+                                            businesses
+                                            that is a full project management solution.</p>
+                                    </div>
+                                    <hr>
+                                </div>
+                                <div class="rev_slide_block2">
+                                    <div><img src="image/Avater-2.png" class="avatar"></div>
+                                    <div>
+                                        <p class="name">Oberon Shaw, MCH</p>
+                                        <p>Head of Talent Acquisition, North America</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide me-3 ms-3">
+                            <div class="rev_slide_block">
+                                <div class="rev_slide_block1">
+                                    <div class="slide_icon">
+                                        <div></div>
+                                        <p class="card-subtitle">Whitepate is designed as a collaboration tool
+                                            for
+                                            businesses
+                                            that is a full project management solution.</p>
+                                    </div>
+                                    <hr>
+                                </div>
+                                <div class="rev_slide_block2">
+                                    <div><img src="image/Avater-1.png" class="avatar"></div>
+                                    <div>
                                         <p class="name">Oberon Shaw, MCH</p>
                                         <p>Head of Talent Acquisition, North America</p>
                                     </div>
@@ -522,18 +570,18 @@
         </div>
     </section>
     <section class="twelfth">
-        <div class="container-fluid pe-0 ps-0">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-12 before-futer">
-                    <div class="d-flex flex-column title_team">
-                        <h1 class="forH1 letter">
+                    <div class="text_block">
+                        <h1>
                             Try Whitepace today
                         </h1>
                         <div>
-                            <p class="forP mb-0 letter">
+                            <p class="mb-0">
                                 Get started for free.
                             </p>
-                            <p class="letter">
+                            <p>
                                 Add your whole team as your needs grow.
                             </p>
                         </div>
@@ -542,7 +590,7 @@
                         <a href="#" class="button_group">Try Taskey free</a>
                     </div>
                     <div>
-                        <p class="letter">
+                        <p>
                             On a big team? Contact sales
                         </p>
                     </div>
@@ -556,42 +604,42 @@
         </div>
     </section>
     <footer>
-        <div class="container-fluid pe-0 ps-0">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-12 d-flex centering_sb for_mb gap_for_footer">
+                <div class="col-12 d-flex for_mb">
                     <div class="footer-bloc">
                         <img src="image/Logo.png" alt="Logo" class="footer-image mb-3">
-                        <p class="forP letter">
+                        <p>
                             whitepace was created for the new ways we live and work. We make a better workspace around
                             the world
                         </p>
                     </div>
-                    <div class="d-flex flex-column footer-bloc">
-                        <div class="letter"><a href="#">Product</a></div>
-                        <div class="letter"><a href="#">Overview</a></div>
-                        <div class="letter"><a href="#">Pricing</a></div>
-                        <div class="letter"><a href="#">Customer</a></div>
+                    <div class="footer-bloc">
+                        <div><a href="#">Product</a></div>
+                        <div><a href="#">Overview</a></div>
+                        <div><a href="#">Pricing</a></div>
+                        <div><a href="#">Customer</a></div>
                     </div>
-                    <div class="d-flex flex-column footer-bloc">
-                        <div class="letter"><a href="#">Resources</a></div>
-                        <div class="letter"><a href="#">Blog</a></div>
-                        <div class="letter"><a href="#">Guides & tutorials</a></div>
-                        <div class="letter"><a href="#">Help center</a></div>
+                    <div class="footer-bloc">
+                        <div><a href="#">Resources</a></div>
+                        <div><a href="#">Blog</a></div>
+                        <div><a href="#">Guides & tutorials</a></div>
+                        <div><a href="#">Help center</a></div>
                     </div>
-                    <div class="d-flex flex-column footer-bloc">
-                        <div class="letter"><a href="#">Company</a></div>
-                        <div class="letter"><a href="#">About us</a></div>
-                        <div class="letter"><a href="#">Careers</a></div>
-                        <div class="letter"><a href="#">Media kit</a></div>
+                    <div class="footer-bloc">
+                        <div><a href="#">Company</a></div>
+                        <div><a href="#">About us</a></div>
+                        <div><a href="#">Careers</a></div>
+                        <div><a href="#">Media kit</a></div>
                     </div>
-                    <div class="d-flex flex-column footer-bloc2">
-                        <h5 class="letter mb-0">
+                    <div class="footer-bloc2">
+                        <h5 class="mb-0">
                             Try It Today
                         </h5>
-                        <p class="letter mb-0" style="font-size: 16px;">
+                        <p class="mb-0" style="font-size: 16px;">
                             Get started for free.
                             Add your whole team as your needs grow.
-                        </p class="letter">
+                        </p>
                         <div>
                             <a href="#" class="button_group">Start today</a>
                         </div>
@@ -601,43 +649,32 @@
                     <hr>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 d-flex align-items-center justify-content-start footerBlock">
-                    <div class="navbar-footer">
-                        <nav class="navbar navbar-expand-lg">
-                            <div class="container-fluid pe-0 ps-0">
-                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link footer-navlink dropdown-toggle letter" href="#"
-                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                English
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item letter" href="#">Ukrainian</a></li>
-                                                <li><a class="dropdown-item letter" href="#">Another</a></li>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
-                    <div class="footer-p footerBlock">
-                        <p class="letter">Terms & privacy</p>
-                        <p class="letter">Security</p>
-                        <p class="letter">Status</p>
-                        <p class="letter">©2021 Whitepace LLC.</p>
-                    </div>
+            <div class="row footer-bloc3">
+                <div class="col-lg-7 col-md-12 navbar-footer">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link footer-navlink dropdown-toggle" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        English
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Ukrainian</a></li>
+                                        <li><a class="dropdown-item" href="#">Another</a></li>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div><a href="#">Terms & privacy</a></div>
+                    <div><a href="#">Security</a></div>
+                    <div><a href="#">Status</a></div>
+                    <p>©2021 Whitepace LLC.</p>
                 </div>
-                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 d-flex centering_e align-items-center centering_s">
-                    <div class="d-flex justify-content-between messengers">
-                        <div class="facebook">
-                        </div>
-                        <div class="twitter">
-                        </div>
-                        <div class="linkedin">
-                        </div>
-                    </div>
+                <div class="col-lg-5 col-md-12 messengers">
+                    <div><a href="#" class="facebook"></a></div>
+                    <div><a href="#" class="twitter"></a></div>
+                    <div><a href="#" class="linkedin"></a></div>
                 </div>
             </div>
         </div>
